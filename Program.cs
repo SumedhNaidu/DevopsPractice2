@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Lambda
 {
     public delegate bool EligibleToPromotion(Employee EmployeeToPromotion);
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
